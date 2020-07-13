@@ -1,0 +1,8 @@
+Steps to run Live prediction:
+
+cd /home/venkatesh/Desktop/USRPProject/FlowGraphs
+
+Command ot start plying file of a modtype and SNR level: 
+python2 TransmitRealTimePredictionAllSNRs.py QPSK 19
+python2 TransmitRealTimePredictionAllSNRs.py QPSK -10
+
