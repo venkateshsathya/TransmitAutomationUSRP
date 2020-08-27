@@ -1,0 +1,392 @@
+Deleting ModulationAndSNR.txt and computed_power.txt in /tmp folder of receive laptop before test start.
+We are now calculating noise power after transmitting a signal. File being sent to RX
+Received Noise power file
+-148.823451996
+('Computed noise power', -148.823451996)
+('Attempting to set attenuations of ', 0, ' and ', 15, ' on 192.168.30.1 and 40.1 respectively.')
+('Attenutation value read from 192.168.30.1 and 192.168.40.1 after setting is: ', u' 0.0', u'15.0')
+Sending compute_file to RX
+('Transmitting Signal for signal power computation by RX for ', 1, ' seconds.')
+20:31:04.357960
+('Real File Name is ', '/home/venkatesh/Documents/USRPProject/DataCollect/IQSamples/Transmit/12August2020_TransmitNoAWGN/BPSKTransmitdata_NoAWGNReal.bin')
+('Imaginary File Name is ', '/home/venkatesh/Documents/USRPProject/DataCollect/IQSamples/Transmit/12August2020_TransmitNoAWGN/BPSKTransmitdata_NoAWGNImag.bin')
+TX USRP starting up for transmitting signal for power computation
+Transmit Complete
+Sleeping for 2 seconds after tranmit complete
+Hi
+Received Signal power file
+-148.823451996
+('Computed signal power', -148.823451996)
+('Attempting to change attenuation to set 20dB', -20.0)
+('Attempting to set attenuations of ', -5.0, ' and ', 0, ' on 192.168.30.1 and 40.1 respectively.')
+('Attenutation value read from 192.168.30.1 and 192.168.40.1 after setting is: ', u' 0.0', u' 0.0')
+Compute signal power after setting attenuation to achieve 20dB as a sanity check
+Sending compute_file to RX
+('Transmitting Signal for signal power computation by RX for ', 1, ' seconds.for sanity test')
+20:31:13.011855
+('Real File Name is ', '/home/venkatesh/Documents/USRPProject/DataCollect/IQSamples/Transmit/12August2020_TransmitNoAWGN/BPSKTransmitdata_NoAWGNReal.bin')
+('Imaginary File Name is ', '/home/venkatesh/Documents/USRPProject/DataCollect/IQSamples/Transmit/12August2020_TransmitNoAWGN/BPSKTransmitdata_NoAWGNImag.bin')
+TX USRP starting up for transmitting signal for power computation
+Transmit Complete
+Sleeping for 2 seconds after tranmit complete
+Received Signal power file
+-148.823451996
+('Computed signal power', -148.823451996)
+('Signal power minus noise power now is: ', 0.0)
+Ensure that this difference is not too off from intended 20dB
+('Modulation and SNR that we are about to transmit are: ', 'BPSK', 20)
+Setting external attenuators to set teh requisite power
+We are now transferring a file with the modulation and SNR of the data to indicate RX system to start capture
+20:31:19.280988
+('Real File Name is ', '/home/venkatesh/Documents/USRPProject/DataCollect/IQSamples/Transmit/12August2020_TransmitNoAWGN/BPSKTransmitdata_NoAWGNReal.bin')
+('Imaginary File Name is ', '/home/venkatesh/Documents/USRPProject/DataCollect/IQSamples/Transmit/12August2020_TransmitNoAWGN/BPSKTransmitdata_NoAWGNImag.bin')
+TX USRP starting up
+Transmit Complete
+20:31:21.976969
+('Sleeping ', 0.5, ' seconds')
+Waking UP
+20:31:22.477713
+('Modulation and SNR that we are about to transmit are: ', 'BPSK', 18)
+Setting external attenuators to set teh requisite power
+('Attempting to set attenuations of ', -5.0, ' and ', 2, ' on 192.168.30.1 and 40.1 respectively.')
+('Attenutation value read from 192.168.30.1 and 192.168.40.1 after setting is: ', u' 0.0', u' 2.0')
+We are now transferring a file with the modulation and SNR of the data to indicate RX system to start capture
+20:31:22.994884
+('Real File Name is ', '/home/venkatesh/Documents/USRPProject/DataCollect/IQSamples/Transmit/12August2020_TransmitNoAWGN/BPSKTransmitdata_NoAWGNReal.bin')
+('Imaginary File Name is ', '/home/venkatesh/Documents/USRPProject/DataCollect/IQSamples/Transmit/12August2020_TransmitNoAWGN/BPSKTransmitdata_NoAWGNImag.bin')
+TX USRP starting up
+Transmit Complete
+20:31:25.722155
+('Sleeping ', 0.5, ' seconds')
+Waking UP
+20:31:26.222881
+('Modulation and SNR that we are about to transmit are: ', 'BPSK', 16)
+Setting external attenuators to set teh requisite power
+('Attempting to set attenuations of ', -5.0, ' and ', 4, ' on 192.168.30.1 and 40.1 respectively.')
+('Attenutation value read from 192.168.30.1 and 192.168.40.1 after setting is: ', u' 0.0', u' 4.0')
+We are now transferring a file with the modulation and SNR of the data to indicate RX system to start capture
+20:31:26.794191
+('Real File Name is ', '/home/venkatesh/Documents/USRPProject/DataCollect/IQSamples/Transmit/12August2020_TransmitNoAWGN/BPSKTransmitdata_NoAWGNReal.bin')
+('Imaginary File Name is ', '/home/venkatesh/Documents/USRPProject/DataCollect/IQSamples/Transmit/12August2020_TransmitNoAWGN/BPSKTransmitdata_NoAWGNImag.bin')
+TX USRP starting up
+Transmit Complete
+20:31:29.477452
+('Sleeping ', 0.5, ' seconds')
+Waking UP
+20:31:29.978225
+('Modulation and SNR that we are about to transmit are: ', 'BPSK', 14)
+Setting external attenuators to set teh requisite power
+('Attempting to set attenuations of ', -5.0, ' and ', 6, ' on 192.168.30.1 and 40.1 respectively.')
+('Attenutation value read from 192.168.30.1 and 192.168.40.1 after setting is: ', u' 0.0', u' 6.0')
+We are now transferring a file with the modulation and SNR of the data to indicate RX system to start capture
+20:31:30.577490
+('Real File Name is ', '/home/venkatesh/Documents/USRPProject/DataCollect/IQSamples/Transmit/12August2020_TransmitNoAWGN/BPSKTransmitdata_NoAWGNReal.bin')
+('Imaginary File Name is ', '/home/venkatesh/Documents/USRPProject/DataCollect/IQSamples/Transmit/12August2020_TransmitNoAWGN/BPSKTransmitdata_NoAWGNImag.bin')
+TX USRP starting up
+Transmit Complete
+20:31:33.321158
+('Sleeping ', 0.5, ' seconds')
+Waking UP
+20:31:33.821911
+('Modulation and SNR that we are about to transmit are: ', 'BPSK', 12)
+Setting external attenuators to set teh requisite power
+('Attempting to set attenuations of ', -5.0, ' and ', 8, ' on 192.168.30.1 and 40.1 respectively.')
+('Attenutation value read from 192.168.30.1 and 192.168.40.1 after setting is: ', u' 0.0', u' 8.0')
+We are now transferring a file with the modulation and SNR of the data to indicate RX system to start capture
+20:31:34.321188
+('Real File Name is ', '/home/venkatesh/Documents/USRPProject/DataCollect/IQSamples/Transmit/12August2020_TransmitNoAWGN/BPSKTransmitdata_NoAWGNReal.bin')
+('Imaginary File Name is ', '/home/venkatesh/Documents/USRPProject/DataCollect/IQSamples/Transmit/12August2020_TransmitNoAWGN/BPSKTransmitdata_NoAWGNImag.bin')
+TX USRP starting up
+Transmit Complete
+20:31:37.068950
+('Sleeping ', 0.5, ' seconds')
+Waking UP
+20:31:37.569707
+('Modulation and SNR that we are about to transmit are: ', 'BPSK', 10)
+Setting external attenuators to set teh requisite power
+('Attempting to set attenuations of ', -5.0, ' and ', 10, ' on 192.168.30.1 and 40.1 respectively.')
+('Attenutation value read from 192.168.30.1 and 192.168.40.1 after setting is: ', u' 0.0', u'10.0')
+We are now transferring a file with the modulation and SNR of the data to indicate RX system to start capture
+20:31:38.046783
+('Real File Name is ', '/home/venkatesh/Documents/USRPProject/DataCollect/IQSamples/Transmit/12August2020_TransmitNoAWGN/BPSKTransmitdata_NoAWGNReal.bin')
+('Imaginary File Name is ', '/home/venkatesh/Documents/USRPProject/DataCollect/IQSamples/Transmit/12August2020_TransmitNoAWGN/BPSKTransmitdata_NoAWGNImag.bin')
+TX USRP starting up
+Transmit Complete
+20:31:40.715278
+('Sleeping ', 0.5, ' seconds')
+Waking UP
+20:31:41.215933
+('Modulation and SNR that we are about to transmit are: ', 'BPSK', 8)
+Setting external attenuators to set teh requisite power
+('Attempting to set attenuations of ', -5.0, ' and ', 12, ' on 192.168.30.1 and 40.1 respectively.')
+('Attenutation value read from 192.168.30.1 and 192.168.40.1 after setting is: ', u' 0.0', u'12.0')
+We are now transferring a file with the modulation and SNR of the data to indicate RX system to start capture
+20:31:41.702264
+('Real File Name is ', '/home/venkatesh/Documents/USRPProject/DataCollect/IQSamples/Transmit/12August2020_TransmitNoAWGN/BPSKTransmitdata_NoAWGNReal.bin')
+('Imaginary File Name is ', '/home/venkatesh/Documents/USRPProject/DataCollect/IQSamples/Transmit/12August2020_TransmitNoAWGN/BPSKTransmitdata_NoAWGNImag.bin')
+TX USRP starting up
+Transmit Complete
+20:31:44.462190
+('Sleeping ', 0.5, ' seconds')
+Waking UP
+20:31:44.963016
+('Modulation and SNR that we are about to transmit are: ', 'BPSK', 6)
+Setting external attenuators to set teh requisite power
+('Attempting to set attenuations of ', -5.0, ' and ', 14, ' on 192.168.30.1 and 40.1 respectively.')
+('Attenutation value read from 192.168.30.1 and 192.168.40.1 after setting is: ', u' 0.0', u'14.0')
+We are now transferring a file with the modulation and SNR of the data to indicate RX system to start capture
+20:31:45.530819
+('Real File Name is ', '/home/venkatesh/Documents/USRPProject/DataCollect/IQSamples/Transmit/12August2020_TransmitNoAWGN/BPSKTransmitdata_NoAWGNReal.bin')
+('Imaginary File Name is ', '/home/venkatesh/Documents/USRPProject/DataCollect/IQSamples/Transmit/12August2020_TransmitNoAWGN/BPSKTransmitdata_NoAWGNImag.bin')
+TX USRP starting up
+Transmit Complete
+20:31:48.208518
+('Sleeping ', 0.5, ' seconds')
+Waking UP
+20:31:48.709162
+('Modulation and SNR that we are about to transmit are: ', 'BPSK', 4)
+Setting external attenuators to set teh requisite power
+('Attempting to set attenuations of ', -5.0, ' and ', 16, ' on 192.168.30.1 and 40.1 respectively.')
+('Attenutation value read from 192.168.30.1 and 192.168.40.1 after setting is: ', u' 0.0', u'16.0')
+We are now transferring a file with the modulation and SNR of the data to indicate RX system to start capture
+20:31:49.399277
+('Real File Name is ', '/home/venkatesh/Documents/USRPProject/DataCollect/IQSamples/Transmit/12August2020_TransmitNoAWGN/BPSKTransmitdata_NoAWGNReal.bin')
+('Imaginary File Name is ', '/home/venkatesh/Documents/USRPProject/DataCollect/IQSamples/Transmit/12August2020_TransmitNoAWGN/BPSKTransmitdata_NoAWGNImag.bin')
+TX USRP starting up
+Transmit Complete
+20:31:52.058596
+('Sleeping ', 0.5, ' seconds')
+Waking UP
+20:31:52.559348
+('Modulation and SNR that we are about to transmit are: ', 'BPSK', 2)
+Setting external attenuators to set teh requisite power
+('Attempting to set attenuations of ', -5.0, ' and ', 18, ' on 192.168.30.1 and 40.1 respectively.')
+('Attenutation value read from 192.168.30.1 and 192.168.40.1 after setting is: ', u' 0.0', u'18.0')
+We are now transferring a file with the modulation and SNR of the data to indicate RX system to start capture
+20:31:52.987911
+('Real File Name is ', '/home/venkatesh/Documents/USRPProject/DataCollect/IQSamples/Transmit/12August2020_TransmitNoAWGN/BPSKTransmitdata_NoAWGNReal.bin')
+('Imaginary File Name is ', '/home/venkatesh/Documents/USRPProject/DataCollect/IQSamples/Transmit/12August2020_TransmitNoAWGN/BPSKTransmitdata_NoAWGNImag.bin')
+TX USRP starting up
+Transmit Complete
+20:31:55.704725
+('Sleeping ', 0.5, ' seconds')
+Waking UP
+20:31:56.205512
+('Modulation and SNR that we are about to transmit are: ', 'BPSK', 0)
+Setting external attenuators to set teh requisite power
+('Attempting to set attenuations of ', -5.0, ' and ', 20, ' on 192.168.30.1 and 40.1 respectively.')
+('Attenutation value read from 192.168.30.1 and 192.168.40.1 after setting is: ', u' 0.0', u'20.0')
+We are now transferring a file with the modulation and SNR of the data to indicate RX system to start capture
+20:31:56.751130
+('Real File Name is ', '/home/venkatesh/Documents/USRPProject/DataCollect/IQSamples/Transmit/12August2020_TransmitNoAWGN/BPSKTransmitdata_NoAWGNReal.bin')
+('Imaginary File Name is ', '/home/venkatesh/Documents/USRPProject/DataCollect/IQSamples/Transmit/12August2020_TransmitNoAWGN/BPSKTransmitdata_NoAWGNImag.bin')
+TX USRP starting up
+Transmit Complete
+20:31:59.446568
+('Sleeping ', 0.5, ' seconds')
+Waking UP
+20:31:59.947367
+('Modulation and SNR that we are about to transmit are: ', 'BPSK', -2)
+Setting external attenuators to set teh requisite power
+('Attempting to set attenuations of ', -5.0, ' and ', 22, ' on 192.168.30.1 and 40.1 respectively.')
+('Attenutation value read from 192.168.30.1 and 192.168.40.1 after setting is: ', u' 0.0', u'22.0')
+We are now transferring a file with the modulation and SNR of the data to indicate RX system to start capture
+20:32:00.537271
+('Real File Name is ', '/home/venkatesh/Documents/USRPProject/DataCollect/IQSamples/Transmit/12August2020_TransmitNoAWGN/BPSKTransmitdata_NoAWGNReal.bin')
+('Imaginary File Name is ', '/home/venkatesh/Documents/USRPProject/DataCollect/IQSamples/Transmit/12August2020_TransmitNoAWGN/BPSKTransmitdata_NoAWGNImag.bin')
+TX USRP starting up
+Transmit Complete
+20:32:03.291717
+('Sleeping ', 0.5, ' seconds')
+Waking UP
+20:32:03.792442
+('Modulation and SNR that we are about to transmit are: ', 'BPSK', -4)
+Setting external attenuators to set teh requisite power
+('Attempting to set attenuations of ', -5.0, ' and ', 24, ' on 192.168.30.1 and 40.1 respectively.')
+('Attenutation value read from 192.168.30.1 and 192.168.40.1 after setting is: ', u' 0.0', u'24.0')
+We are now transferring a file with the modulation and SNR of the data to indicate RX system to start capture
+20:32:04.363997
+('Real File Name is ', '/home/venkatesh/Documents/USRPProject/DataCollect/IQSamples/Transmit/12August2020_TransmitNoAWGN/BPSKTransmitdata_NoAWGNReal.bin')
+('Imaginary File Name is ', '/home/venkatesh/Documents/USRPProject/DataCollect/IQSamples/Transmit/12August2020_TransmitNoAWGN/BPSKTransmitdata_NoAWGNImag.bin')
+TX USRP starting up
+Transmit Complete
+20:32:07.043228
+('Sleeping ', 0.5, ' seconds')
+Waking UP
+20:32:07.544034
+('Modulation and SNR that we are about to transmit are: ', 'BPSK', -6)
+Setting external attenuators to set teh requisite power
+('Attempting to set attenuations of ', -5.0, ' and ', 26, ' on 192.168.30.1 and 40.1 respectively.')
+('Attenutation value read from 192.168.30.1 and 192.168.40.1 after setting is: ', u' 0.0', u'26.0')
+We are now transferring a file with the modulation and SNR of the data to indicate RX system to start capture
+20:32:08.006785
+('Real File Name is ', '/home/venkatesh/Documents/USRPProject/DataCollect/IQSamples/Transmit/12August2020_TransmitNoAWGN/BPSKTransmitdata_NoAWGNReal.bin')
+('Imaginary File Name is ', '/home/venkatesh/Documents/USRPProject/DataCollect/IQSamples/Transmit/12August2020_TransmitNoAWGN/BPSKTransmitdata_NoAWGNImag.bin')
+TX USRP starting up
+Transmit Complete
+20:32:10.697582
+('Sleeping ', 0.5, ' seconds')
+Waking UP
+20:32:11.198299
+('Modulation and SNR that we are about to transmit are: ', 'BPSK', -8)
+Setting external attenuators to set teh requisite power
+('Attempting to set attenuations of ', -5.0, ' and ', 28, ' on 192.168.30.1 and 40.1 respectively.')
+('Attenutation value read from 192.168.30.1 and 192.168.40.1 after setting is: ', u' 0.0', u'28.0')
+We are now transferring a file with the modulation and SNR of the data to indicate RX system to start capture
+20:32:11.691310
+('Real File Name is ', '/home/venkatesh/Documents/USRPProject/DataCollect/IQSamples/Transmit/12August2020_TransmitNoAWGN/BPSKTransmitdata_NoAWGNReal.bin')
+('Imaginary File Name is ', '/home/venkatesh/Documents/USRPProject/DataCollect/IQSamples/Transmit/12August2020_TransmitNoAWGN/BPSKTransmitdata_NoAWGNImag.bin')
+TX USRP starting up
+Transmit Complete
+20:32:14.440804
+('Sleeping ', 0.5, ' seconds')
+Waking UP
+20:32:14.941547
+('Modulation and SNR that we are about to transmit are: ', 'BPSK', -10)
+Setting external attenuators to set teh requisite power
+('Attempting to set attenuations of ', -5.0, ' and ', 30, ' on 192.168.30.1 and 40.1 respectively.')
+('Attenutation value read from 192.168.30.1 and 192.168.40.1 after setting is: ', u' 0.0', u'30.0')
+We are now transferring a file with the modulation and SNR of the data to indicate RX system to start capture
+20:32:15.490750
+('Real File Name is ', '/home/venkatesh/Documents/USRPProject/DataCollect/IQSamples/Transmit/12August2020_TransmitNoAWGN/BPSKTransmitdata_NoAWGNReal.bin')
+('Imaginary File Name is ', '/home/venkatesh/Documents/USRPProject/DataCollect/IQSamples/Transmit/12August2020_TransmitNoAWGN/BPSKTransmitdata_NoAWGNImag.bin')
+TX USRP starting up
+Transmit Complete
+20:32:18.179523
+('Sleeping ', 0.5, ' seconds')
+Waking UP
+20:32:18.680257
+('Modulation and SNR that we are about to transmit are: ', 'BPSK', -12)
+Setting external attenuators to set teh requisite power
+('Attempting to set attenuations of ', -3.0, ' and ', 30, ' on 192.168.30.1 and 40.1 respectively.')
+('Attenutation value read from 192.168.30.1 and 192.168.40.1 after setting is: ', u' 0.0', u'30.0')
+We are now transferring a file with the modulation and SNR of the data to indicate RX system to start capture
+20:32:19.205431
+('Real File Name is ', '/home/venkatesh/Documents/USRPProject/DataCollect/IQSamples/Transmit/12August2020_TransmitNoAWGN/BPSKTransmitdata_NoAWGNReal.bin')
+('Imaginary File Name is ', '/home/venkatesh/Documents/USRPProject/DataCollect/IQSamples/Transmit/12August2020_TransmitNoAWGN/BPSKTransmitdata_NoAWGNImag.bin')
+TX USRP starting up
+Transmit Complete
+20:32:21.825441
+('Sleeping ', 0.5, ' seconds')
+Waking UP
+20:32:22.326298
+('Modulation and SNR that we are about to transmit are: ', 'BPSK', -14)
+Setting external attenuators to set teh requisite power
+('Attempting to set attenuations of ', -1.0, ' and ', 30, ' on 192.168.30.1 and 40.1 respectively.')
+('Attenutation value read from 192.168.30.1 and 192.168.40.1 after setting is: ', u' 0.0', u'30.0')
+We are now transferring a file with the modulation and SNR of the data to indicate RX system to start capture
+20:32:22.892054
+('Real File Name is ', '/home/venkatesh/Documents/USRPProject/DataCollect/IQSamples/Transmit/12August2020_TransmitNoAWGN/BPSKTransmitdata_NoAWGNReal.bin')
+('Imaginary File Name is ', '/home/venkatesh/Documents/USRPProject/DataCollect/IQSamples/Transmit/12August2020_TransmitNoAWGN/BPSKTransmitdata_NoAWGNImag.bin')
+TX USRP starting up
+Transmit Complete
+20:32:25.570859
+('Sleeping ', 0.5, ' seconds')
+Waking UP
+20:32:26.071598
+('Modulation and SNR that we are about to transmit are: ', 'BPSK', -16)
+Setting external attenuators to set teh requisite power
+('Attempting to set attenuations of ', 1.0, ' and ', 30, ' on 192.168.30.1 and 40.1 respectively.')
+('Attenutation value read from 192.168.30.1 and 192.168.40.1 after setting is: ', u' 1.0', u'30.0')
+We are now transferring a file with the modulation and SNR of the data to indicate RX system to start capture
+20:32:26.588272
+('Real File Name is ', '/home/venkatesh/Documents/USRPProject/DataCollect/IQSamples/Transmit/12August2020_TransmitNoAWGN/BPSKTransmitdata_NoAWGNReal.bin')
+('Imaginary File Name is ', '/home/venkatesh/Documents/USRPProject/DataCollect/IQSamples/Transmit/12August2020_TransmitNoAWGN/BPSKTransmitdata_NoAWGNImag.bin')
+TX USRP starting up
+Transmit Complete
+20:32:29.306077
+('Sleeping ', 0.5, ' seconds')
+Waking UP
+20:32:29.806412
+('Modulation and SNR that we are about to transmit are: ', 'BPSK', -18)
+Setting external attenuators to set teh requisite power
+('Attempting to set attenuations of ', 3.0, ' and ', 30, ' on 192.168.30.1 and 40.1 respectively.')
+('Attenutation value read from 192.168.30.1 and 192.168.40.1 after setting is: ', u' 3.0', u'30.0')
+We are now transferring a file with the modulation and SNR of the data to indicate RX system to start capture
+20:32:30.376917
+('Real File Name is ', '/home/venkatesh/Documents/USRPProject/DataCollect/IQSamples/Transmit/12August2020_TransmitNoAWGN/BPSKTransmitdata_NoAWGNReal.bin')
+('Imaginary File Name is ', '/home/venkatesh/Documents/USRPProject/DataCollect/IQSamples/Transmit/12August2020_TransmitNoAWGN/BPSKTransmitdata_NoAWGNImag.bin')
+TX USRP starting up
+Transmit Complete
+20:32:33.053176
+('Sleeping ', 0.5, ' seconds')
+Waking UP
+20:32:33.553878
+('Modulation and SNR that we are about to transmit are: ', 'BPSK', -20)
+Setting external attenuators to set teh requisite power
+('Attempting to set attenuations of ', 5.0, ' and ', 30, ' on 192.168.30.1 and 40.1 respectively.')
+('Attenutation value read from 192.168.30.1 and 192.168.40.1 after setting is: ', u' 5.0', u'30.0')
+We are now transferring a file with the modulation and SNR of the data to indicate RX system to start capture
+20:32:34.060514
+('Real File Name is ', '/home/venkatesh/Documents/USRPProject/DataCollect/IQSamples/Transmit/12August2020_TransmitNoAWGN/BPSKTransmitdata_NoAWGNReal.bin')
+('Imaginary File Name is ', '/home/venkatesh/Documents/USRPProject/DataCollect/IQSamples/Transmit/12August2020_TransmitNoAWGN/BPSKTransmitdata_NoAWGNImag.bin')
+TX USRP starting up
+Transmit Complete
+20:32:36.796935
+('Sleeping ', 0.5, ' seconds')
+Waking UP
+20:32:37.297756
+('Attempting to set attenuations of ', 0, ' and ', 15, ' on 192.168.30.1 and 40.1 respectively.')
+('Attenutation value read from 192.168.30.1 and 192.168.40.1 after setting is: ', u' 0.0', u'15.0')
+Sending compute_file to RX
+('Transmitting Signal for signal power computation by RX for ', 1, ' seconds.')
+20:32:37.814207
+('Real File Name is ', '/home/venkatesh/Documents/USRPProject/DataCollect/IQSamples/Transmit/12August2020_TransmitNoAWGN/QPSKTransmitdata_NoAWGNReal.bin')
+('Imaginary File Name is ', '/home/venkatesh/Documents/USRPProject/DataCollect/IQSamples/Transmit/12August2020_TransmitNoAWGN/QPSKTransmitdata_NoAWGNImag.bin')
+TX USRP starting up for transmitting signal for power computation
+Transmit Complete
+Sleeping for 2 seconds after tranmit complete
+Hi
+Received Signal power file
+-148.823451996
+('Computed signal power', -148.823451996)
+('Attempting to change attenuation to set 20dB', -20.0)
+('Attempting to set attenuations of ', -5.0, ' and ', 0, ' on 192.168.30.1 and 40.1 respectively.')
+('Attenutation value read from 192.168.30.1 and 192.168.40.1 after setting is: ', u' 0.0', u' 0.0')
+Compute signal power after setting attenuation to achieve 20dB as a sanity check
+Sending compute_file to RX
+('Transmitting Signal for signal power computation by RX for ', 1, ' seconds.for sanity test')
+20:32:44.193885
+('Real File Name is ', '/home/venkatesh/Documents/USRPProject/DataCollect/IQSamples/Transmit/12August2020_TransmitNoAWGN/QPSKTransmitdata_NoAWGNReal.bin')
+('Imaginary File Name is ', '/home/venkatesh/Documents/USRPProject/DataCollect/IQSamples/Transmit/12August2020_TransmitNoAWGN/QPSKTransmitdata_NoAWGNImag.bin')
+TX USRP starting up for transmitting signal for power computation
+Transmit Complete
+Sleeping for 2 seconds after tranmit complete
+Received Signal power file
+-148.823451996
+('Computed signal power', -148.823451996)
+('Signal power minus noise power now is: ', 0.0)
+Ensure that this difference is not too off from intended 20dB
+('Modulation and SNR that we are about to transmit are: ', 'QPSK', 20)
+Setting external attenuators to set teh requisite power
+We are now transferring a file with the modulation and SNR of the data to indicate RX system to start capture
+20:32:50.446835
+('Real File Name is ', '/home/venkatesh/Documents/USRPProject/DataCollect/IQSamples/Transmit/12August2020_TransmitNoAWGN/QPSKTransmitdata_NoAWGNReal.bin')
+('Imaginary File Name is ', '/home/venkatesh/Documents/USRPProject/DataCollect/IQSamples/Transmit/12August2020_TransmitNoAWGN/QPSKTransmitdata_NoAWGNImag.bin')
+TX USRP starting up
+Transmit Complete
+20:32:53.151244
+('Sleeping ', 0.5, ' seconds')
+Waking UP
+20:32:53.652001
+('Modulation and SNR that we are about to transmit are: ', 'QPSK', 18)
+Setting external attenuators to set teh requisite power
+('Attempting to set attenuations of ', -5.0, ' and ', 2, ' on 192.168.30.1 and 40.1 respectively.')
+('Attenutation value read from 192.168.30.1 and 192.168.40.1 after setting is: ', u' 0.0', u' 2.0')
+We are now transferring a file with the modulation and SNR of the data to indicate RX system to start capture
+20:32:54.229180
+('Real File Name is ', '/home/venkatesh/Documents/USRPProject/DataCollect/IQSamples/Transmit/12August2020_TransmitNoAWGN/QPSKTransmitdata_NoAWGNReal.bin')
+('Imaginary File Name is ', '/home/venkatesh/Documents/USRPProject/DataCollect/IQSamples/Transmit/12August2020_TransmitNoAWGN/QPSKTransmitdata_NoAWGNImag.bin')
+TX USRP starting up
+Transmit Complete
+20:32:56.901043
+('Sleeping ', 0.5, ' seconds')
+Waking UP
+20:32:57.401787
+('Modulation and SNR that we are about to transmit are: ', 'QPSK', 16)
+Setting external attenuators to set teh requisite power
+('Attempting to set attenuations of ', -5.0, ' and ', 4, ' on 192.168.30.1 and 40.1 respectively.')
+('Attenutation value read from 192.168.30.1 and 192.168.40.1 after setting is: ', u' 0.0', u' 4.0')
+We are now transferring a file with the modulation and SNR of the data to indicate RX system to start capture
+20:32:57.890959
+('Real File Name is ', '/home/venkatesh/Documents/USRPProject/DataCollect/IQSamples

@@ -1,0 +1,2 @@
+Deleting ModulationAndSNR.txt and computed_power.txt in /tmp folder of receive laptop before test start.
+We are now calculating noise power after transmitting a signal. File being sent to RX

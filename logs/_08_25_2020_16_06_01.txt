@@ -1,0 +1,66 @@
+Deleting ModulationAndSNR.txt and computed_power.txt in /tmp folder of receive laptop before test start.
+We are now calculating noise power after transmitting a signal. File being sent to RX
+Received Noise power file
+-148.766937256
+('Computed noise power', -148.766937256)
+('Attempting to set attenuations of ', 0, ' and ', 15, ' on 192.168.30.1 and 40.1 respectively.')
+('Attenutation value read from 192.168.30.1 and 192.168.40.1 after setting is: ', u' 0.0', u'1')
+Sending compute_file to RX
+('Transmitting Signal for signal power computation by RX for ', 25, ' seconds.')
+16:06:18.332730
+('Real File Name is ', '/home/venkatesh/Documents/USRPProject/DataCollect/IQSamples/Transmit/12August2020_TransmitNoAWGN/BPSKTransmitdata_NoAWGNReal.bin')
+('Imaginary File Name is ', '/home/venkatesh/Documents/USRPProject/DataCollect/IQSamples/Transmit/12August2020_TransmitNoAWGN/BPSKTransmitdata_NoAWGNImag.bin')
+TX USRP starting up for transmitting signal for power computation
+Transmit Complete
+Sleeping for 2 seconds after tranmit complete
+Hi
+Received Signal power file
+-137.548856735
+('Computed signal power', -137.548856735)
+('Attempting to change attenuation to set 20dB', -8.75)
+('Attempting to set attenuations of ', 0, ' and ', 6.25, ' on 192.168.30.1 and 40.1 respectively.')
+('Attenutation value read from 192.168.30.1 and 192.168.40.1 after setting is: ', u' 0.0', u'1')
+Compute signal power after setting attenuation to achieve 20dB as a sanity check
+Sending compute_file to RX
+('Transmitting Signal for signal power computation by RX for ', 25, ' seconds.for sanity test')
+16:06:51.095112
+('Real File Name is ', '/home/venkatesh/Documents/USRPProject/DataCollect/IQSamples/Transmit/12August2020_TransmitNoAWGN/BPSKTransmitdata_NoAWGNReal.bin')
+('Imaginary File Name is ', '/home/venkatesh/Documents/USRPProject/DataCollect/IQSamples/Transmit/12August2020_TransmitNoAWGN/BPSKTransmitdata_NoAWGNImag.bin')
+TX USRP starting up for transmitting signal for power computation
+Transmit Complete
+Sleeping for 2 seconds after tranmit complete
+Received Signal power file
+-129.33344841
+('Computed signal power', -129.33344841)
+('Signal power minus noise power now is: ', 19.433488846000017)
+Ensure that this difference is not too off from intended 20dB
+('Modulation and SNR that we are about to transmit are: ', 'BPSK', 20)
+Setting external attenuators to set teh requisite power
+('Attempting to set attenuations of ', 0, ' and ', 6.25, ' on 192.168.30.1 and 40.1 respectively.')
+('Attenutation value read from 192.168.30.1 and 192.168.40.1 after setting is: ', u' 0.0', u'1')
+We are now transferring a file with the modulation and SNR of the data to indicate RX system to start capture
+16:07:21.617960
+('Real File Name is ', '/home/venkatesh/Documents/USRPProject/DataCollect/IQSamples/Transmit/12August2020_TransmitNoAWGN/BPSKTransmitdata_NoAWGNReal.bin')
+('Imaginary File Name is ', '/home/venkatesh/Documents/USRPProject/DataCollect/IQSamples/Transmit/12August2020_TransmitNoAWGN/BPSKTransmitdata_NoAWGNImag.bin')
+TX USRP starting up
+Transmit Complete
+16:07:48.359609
+('Sleeping ', 5, ' seconds')
+Waking UP
+16:07:53.362448
+('Modulation and SNR that we are about to transmit are: ', 'BPSK', 18)
+Setting external attenuators to set teh requisite power
+('Attempting to set attenuations of ', 0, ' and ', 8.25, ' on 192.168.30.1 and 40.1 respectively.')
+('Attenutation value read from 192.168.30.1 and 192.168.40.1 after setting is: ', u' 0.0', u'1')
+We are now transferring a file with the modulation and SNR of the data to indicate RX system to start capture
+16:07:53.870259
+('Real File Name is ', '/home/venkatesh/Documents/USRPProject/DataCollect/IQSamples/Transmit/12August2020_TransmitNoAWGN/BPSKTransmitdata_NoAWGNReal.bin')
+('Imaginary File Name is ', '/home/venkatesh/Documents/USRPProject/DataCollect/IQSamples/Transmit/12August2020_TransmitNoAWGN/BPSKTransmitdata_NoAWGNImag.bin')
+TX USRP starting up
+Transmit Complete
+16:08:20.611686
+('Sleeping ', 5, ' seconds')
+Waking UP
+16:08:25.614441
+('Modulation and SNR that we are about to transmit are: ', 'BPSK', 16)
+Setting external attenuator

@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 ##################################################
 # GNU Radio Python Flow Graph
-# Title: Playtonefromfile1
+# Title: TransmitModulationData
 # GNU Radio version: 3.7.13.5
 ##################################################
 #Thu 19 Sep 2019 11:47:05 AM PDT
@@ -20,23 +20,23 @@ import os
 import datetime
 
 
-class PlayToneFromFIle1(gr.top_block):
+class TransmitModulationData(gr.top_block):
 
-    def __init__(self):
-        gr.top_block.__init__(self, "Playtonefromfile1")
+    def __init__(self, samp_rate, carrier, TxGain, RealFileName, ImaginaryFileName,NumSeconds):
+        gr.top_block.__init__(self, "TransmitModulationData")
 
         ##################################################
         # Variables
         ##################################################
-        self.samp_rate = samp_rate = 1250000
-        self.carrier = carrier = 900000000
-        self.TxGain = TxGain = 30
-        self.RxGain = RxGain = 30
-        ImaginaryFileName = sys.argv[2]
-        RealFileName = sys.argv[1]
+        self.samp_rate = samp_rate #= 1250000
+        self.carrier = carrier #= 990000000
+        self.TxGain = TxGain #= 30
+        self.RxGain = RxGain = 0
+        #ImaginaryFileName = sys.argv[2]
+        #RealFileName = sys.argv[1]
         print('Real File Name is ', RealFileName)
         print('Imaginary File Name is ', ImaginaryFileName)
-        self.NumSeconds = NumSeconds = int(sys.argv[3])
+        self.NumSeconds = NumSeconds
         ##################################################
         # Blocks
         ##################################################
@@ -130,10 +130,10 @@ class PlayToneFromFIle1(gr.top_block):
 
 
 
-def main(top_block_cls=PlayToneFromFIle1, options=None):
+def main(top_block_cls=TransmitModulationData, options=None):
     if gr.enable_realtime_scheduling() != gr.RT_OK:
         print("Error: failed to enable real-time scheduling.")
-
+    print("running inside main")
     tb = top_block_cls()
     tb.start()
 
@@ -144,7 +144,7 @@ def main(top_block_cls=PlayToneFromFIle1, options=None):
 # shall start its USRP and receive the signals. This mechanism is a crude way to co-ordinate transmit and receive prcess
 
 ####### COmmenitng this line only for small tests... This below line shud be uncommented. - Done July 12th.
-    #os.system('sshpass -p \'123456789\' /usr/bin/scp FileNameWritten.txt gelu@100.91.146.1:/tmp/')
+    os.system('sshpass -p \'123456789\' /usr/bin/scp FileNameWritten.txt gelu@100.91.146.1:/tmp/')
     os.system("cat FileNameWritten.txt")
     print('File sent')
     print(datetime.datetime.now().time())
@@ -152,4 +152,5 @@ def main(top_block_cls=PlayToneFromFIle1, options=None):
 
 
 if __name__ == '__main__':
+    print("running inside main")
     main()
